@@ -8,6 +8,14 @@ env:
     - MPACK_LUA_VERSION=5.1.5
     - MPACK_LUA_VERSION=5.2.4
     - MPACK_LUA_VERSION=5.3.3
+    
+    
+    - MPACK_LUA_VERSION=5.1.5
+      arch: ppc64le
+    - MPACK_LUA_VERSION=5.2.4
+      arch: ppc64le
+    - MPACK_LUA_VERSION=5.3.3
+      arch: ppc64le
 
 addons:
   apt:
